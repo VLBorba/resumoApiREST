@@ -58,19 +58,19 @@ códigos de status HTTP (HTTP status codes) são números de três dígitos que 
 Eles são retornados pelo servidor para informar ao cliente sobre o sucesso, falha ou necessidade de ações adicionais na solicitação.
 
 1xx (Informational): Indica que a solicitação foi recebida, continua o processo, ou o cliente deve aguardar.
-
 Exemplos: 100 Continue, 101 Switching Protocols.
+
 2xx (Successful): Indica que a solicitação foi recebida, compreendida e aceita com sucesso.
-
 Exemplos: 200 OK, 201 Created, 204 No Content.
+
 3xx (Redirection): Indica que mais ações precisam ser tomadas para completar a solicitação.
-
 Exemplos: 301 Moved Permanently, 302 Found, 304 Not Modified.
+
 4xx (Client Error): Indica que o cliente fez uma solicitação inválida.
-
 Exemplos: 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found.
-5xx (Server Error): Indica que houve um erro no servidor ao processar a solicitação.
 
+5xx (Server Error): Indica que houve um erro no servidor ao processar a solicitação.
 Exemplos: 500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable.
+
 ---
 Autor do resumo: Vinicius L A de H Borba - 01556075
